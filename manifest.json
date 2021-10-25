@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "HagSi Launcher",
+    "description": "Quick launch media",
+    "version": "1.0.0",
+    "icons": {"120": "hagsi launcher icon.png"},
+    "browser_action":{
+        "default_icon": "hagsi launcher icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
